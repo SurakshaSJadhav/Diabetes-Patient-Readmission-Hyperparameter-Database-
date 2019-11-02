@@ -64,3 +64,29 @@ using the hyperparameter database that can
 predict the hyperparameters without
 searching or visualizing the statistical
 concepts such as bias/variance tradeoff.
+
+# Result
+
+The dataset was selected, and we ran AutoML
+on the dataset and decided the Target, which
+in our case is the readmission of the diabetic
+patients. We ran the AutoML for three
+different run times i.e.
+1) 500sec
+2) 1000sec
+3) 1500sec
+After fetching the AutoML leaderboard we
+stored the models for future reference. The
+hyperparameters for all the run time is
+extracted and stored. These extracted
+Hyperparameters for each model is stored in
+JSON or CSV. The Meta_Data for every run is
+obtained. Knowledge of the relative
+importance of a hyperparameter to an
+algorithm and its range of values is crucial to
+hyperparameter tuning and creating
+effective models.
+For example, we have considered a GBM
+model where we noticed an increase in the
+AUC (metric) with an increase in the number
+of trees (viz; Hyperparameter).
