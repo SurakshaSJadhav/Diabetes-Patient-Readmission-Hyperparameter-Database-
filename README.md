@@ -28,7 +28,8 @@ tests were carried out.
 the encounter.
 
 
-Method
+# Method
+
 Parameters that are stated in prior to running
 a machine learning algorithm and that have
 a colossal effect on the predictive power of
